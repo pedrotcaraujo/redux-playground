@@ -34,7 +34,6 @@ class Form extends React.Component {
             <div>
                 <input type="text" ref="username" />
                 {button} 
-                <h1>Current state is {this.props.state.status + ' as ' + this.props.state.value}</h1>
             </div>
         );
     }
